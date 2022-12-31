@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Josefin Sans';
+    src: url('./Josefin_Sans/JosefinSans-Italic-VariableFont_wght.ttf');
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+
+h1 {
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translate(0%, -100%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+p {
+    width: 500px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translate(0%, 300%);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+body { margin:0; background:#000; color: white;}
+canvas { 
+    position:absolute; 
+    display:block; 
+    z-index:-100;  
+}
+
+a { color:white; text-decoration:none; }
+#copyright { color:white; font-family:arial; font-size:12px; position:absolute; right:0; bottom:0; z-index:1000; }
